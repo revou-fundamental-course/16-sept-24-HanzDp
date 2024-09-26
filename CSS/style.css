@@ -1,0 +1,99 @@
+/* Style untuk header dan navbar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Style untuk body */
+.hero-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ececec;
+}
+
+.hero-section h1 {
+    font-size: 2rem;
+}
+
+/* Headquarter Section */
+.headquarter-section {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.headquarter-section div {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.headquarter-section div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Style untuk form */
+.form-section {
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+.form-section form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-section input,
+.form-section select,
+.form-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style untuk footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: #fff;
+}
+
+.error {
+    color: red;
+}

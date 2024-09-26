@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo" width="50">
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/js/ourProfile.html">Our Profile</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Message Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Body -->
+    <section class="hero-section">
+        <h1 id="welcome-message">Hi, Welcome To Website</h1>
+        <p>Ini adalah website latihan pertama</p>
+        <img src="/Asset/Semarang.jpeg" alt="Semarang">
+    </section>
+
+    <!-- About Our Company Section -->
+    <section class="about-section">
+        <h2>About Our Company</h2>
+        <p>
+            Our company is dedicated to providing innovative solutions in the tech industry. We specialize in creating impactful software that helps solve real-world problems. With a team of experts in AI, big data, and multimedia, we are constantly pushing the boundaries of technology.
+        </p>
+
+        <h3>Vision</h3>
+        <p>
+            Our vision is to lead the digital transformation by creating cutting-edge technologies that improve the quality of life and drive sustainable growth for businesses.
+        </p>
+
+        <h3>Mission</h3>
+        <p>
+            Our mission is to deliver high-quality, innovative, and user-friendly software solutions that meet the evolving needs of our clients. We aim to foster a collaborative environment where creativity and technology come together to solve challenges and unlock new opportunities.
+        </p>
+    </section>
+
+    <!-- Headquarter Section -->
+    <section class="headquarter-section">
+        <div>
+            <img src="/Asset/jakarta.jpeg" alt="Jakarta">
+            <p>Jakarta</p>
+        </div>
+        <div>
+            <img src="/Asset/Bandung.jpeg" alt="Bandung">
+            <p>Bandung</p>
+        </div>
+        <div>
+            <img src="/Asset/Bogor.jpeg" alt="Bogor">
+            <p>Bogor</p>
+        </div>
+    </section>
+
+    <!-- Form Input -->
+    <section class="form-section">
+        <form id="messageForm">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="tanggal-lahir">Tanggal Lahir:</label>
+            <input type="date" id="tanggal-lahir" name="tanggal-lahir" required>
+
+            <label for="jenis-kelamin">Jenis Kelamin:</label>
+            <select id="jenis-kelamin" name="jenis-kelamin" required>
+                <option value="Laki-Laki">Laki-Laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+        <div id="error-message" class="error"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Created by RevoU</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
